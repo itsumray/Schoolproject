@@ -1,0 +1,73 @@
+/* Basic styling for the layout */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the left column (rarity list) */
+#rarity-column {
+  width: 200px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 2px solid #ccc;
+}
+
+#rarity-column h3 {
+  margin-top: 0;
+}
+
+#rarity-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#rarity-column li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styling for the main content area */
+#main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.character {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Rarity-specific styles */
+.character.common {
+  color: #6c757d; /* Gray for common */
+}
+
+.character.uncommon {
+  color: #28a745; /* Green for uncommon */
+}
+
+.character.rare {
+  color: #007bff; /* Blue for rare */
+}
+
+.character.legendary {
+  color: #ffc107; /* Gold for legendary */
+}
+.character.legendary {
+   text-shadow
