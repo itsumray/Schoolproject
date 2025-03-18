@@ -1,0 +1,2 @@
+# Schoolproject
+random character generator
