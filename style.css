@@ -50,7 +50,6 @@ button:hover {
 
 .character {
   margin-top: 20px;
-  font-size: 18px;
 }
 
 /* Rarity-specific styles */
@@ -70,4 +69,4 @@ button:hover {
   color: #ffc107; /* Gold for legendary */
 }
 .character.legendary {
-   text-shadow
+   text-shadow: gold -
